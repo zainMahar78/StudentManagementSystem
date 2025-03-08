@@ -3,7 +3,7 @@ public class Student{
     private String RollNumber;
     private String department;
     @SuppressWarnings("OverridableMethodCallInConstructor")
-    public Student(String name,String RollNumber,String department){
+    public Student(String name, String RollNumber, String department){
         setName(name);
         setDepartment(department);
         setRollNO(RollNumber);
